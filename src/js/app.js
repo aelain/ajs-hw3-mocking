@@ -5,7 +5,7 @@ export default function getLevel(userId) {
 
     // TODO: логика обработки
     if (response.status === 'ok') {
-        return `Ваш текущий уровень: ${response.level}`; // не покрыто тестами
+        return `Ваш текущий уровень: ${response.level}`;
     }
 
     return 'Информация об уровне временно недоступна';
